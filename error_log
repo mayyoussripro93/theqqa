@@ -1,0 +1,32 @@
+[17-Nov-2019 00:59:50 America/Chicago] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home2/k8iqfcv5/public_html/vendor/composer/../clue/stream-filter/src/functions_include.php): failed to open stream: No such file or directory' in /home2/k8iqfcv5/public_html/vendor/composer/autoload_real.php:66
+Stack trace:
+#0 /home2/k8iqfcv5/public_html/vendor/composer/autoload_real.php(66): Composer\Util\ErrorHandler::handle(2, 'require(/home2/...', '/home2/k8iqfcv5...', 66, Array)
+#1 /home2/k8iqfcv5/public_html/vendor/composer/autoload_real.php(66): composerRequire7fb0557613efeb8fa940b88dd0d004d9()
+#2 /home2/k8iqfcv5/public_html/vendor/composer/autoload_real.php(56): composerRequire7fb0557613efeb8fa940b88dd0d004d9('9c67151ae59aff4...', '/home2/k8iqfcv5...')
+#3 /home2/k8iqfcv5/public_html/vendor/autoload.php(7): ComposerAutoloaderInit7fb0557613efeb8fa940b88dd0d004d9::getLoader()
+#4 /home2/k8iqfcv5/public_html/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/home2/k8iqfcv5...')
+#5 phar:///opt/cpanel/composer/ in /home2/k8iqfcv5/public_html/vendor/composer/autoload_real.php on line 66
+[17-Nov-2019 00:59:50 America/Chicago] PHP Fatal error:  composerRequire7fb0557613efeb8fa940b88dd0d004d9(): Failed opening required '/home2/k8iqfcv5/public_html/vendor/composer/../clue/stream-filter/src/functions_include.php' (include_path='.:/opt/php56/lib/php') in /home2/k8iqfcv5/public_html/vendor/composer/autoload_real.php on line 66
+[17-Nov-2019 01:03:27 America/Chicago] PHP Fatal error:  Out of memory (allocated 739770368) (tried to allocate 32813569 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/Json/JsonFile.php on line 270
+[17-Nov-2019 02:06:51 America/Chicago] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home2/k8iqfcv5/public_html/vendor/composer/../clue/stream-filter/src/functions_include.php): failed to open stream: No such file or directory' in /home2/k8iqfcv5/public_html/vendor/composer/autoload_real.php:66
+Stack trace:
+#0 /home2/k8iqfcv5/public_html/vendor/composer/autoload_real.php(66): Composer\Util\ErrorHandler::handle(2, 'require(/home2/...', '/home2/k8iqfcv5...', 66, Array)
+#1 /home2/k8iqfcv5/public_html/vendor/composer/autoload_real.php(66): composerRequire7fb0557613efeb8fa940b88dd0d004d9()
+#2 /home2/k8iqfcv5/public_html/vendor/composer/autoload_real.php(56): composerRequire7fb0557613efeb8fa940b88dd0d004d9('9c67151ae59aff4...', '/home2/k8iqfcv5...')
+#3 /home2/k8iqfcv5/public_html/vendor/autoload.php(7): ComposerAutoloaderInit7fb0557613efeb8fa940b88dd0d004d9::getLoader()
+#4 /home2/k8iqfcv5/public_html/vendor/kylekatarnls/update-helper/src/UpdateHelper/UpdateHelper.php(137): include_once('/home2/k8iqfcv5...')
+#5 /home2/k8iqfcv5/public_html/ve in /home2/k8iqfcv5/public_html/vendor/composer/autoload_real.php on line 66
+[17-Nov-2019 02:06:51 America/Chicago] PHP Fatal error:  composerRequire7fb0557613efeb8fa940b88dd0d004d9(): Failed opening required '/home2/k8iqfcv5/public_html/vendor/composer/../clue/stream-filter/src/functions_include.php' (include_path='.:/opt/php56/lib/php') in /home2/k8iqfcv5/public_html/vendor/composer/autoload_real.php on line 66
+[17-Nov-2019 02:08:19 America/Chicago] PHP Fatal error:  Out of memory (allocated 734527488) (tried to allocate 32778767 bytes) in phar:///home2/k8iqfcv5/bin/composer/composer.phar/src/Composer/Repository/ComposerRepository.php on line 340
+[17-Nov-2019 02:14:37 America/Chicago] PHP Fatal error:  Out of memory (allocated 810557440) (tried to allocate 4096 bytes) in phar:///home2/k8iqfcv5/bin/composer/composer.phar/src/Composer/DependencyResolver/RuleSetGenerator.php on line 129
+[17-Nov-2019 02:15:38 America/Chicago] PHP Fatal error:  Out of memory (allocated 729284608) (tried to allocate 32845157 bytes) in phar:///home2/k8iqfcv5/bin/composer/composer.phar/src/Composer/Repository/ComposerRepository.php on line 340
+[17-Nov-2019 02:16:30 America/Chicago] PHP Fatal error:  Out of memory (allocated 734265344) (tried to allocate 32873033 bytes) in phar:///home2/k8iqfcv5/bin/composer/composer.phar/src/Composer/Repository/ComposerRepository.php on line 340
+[17-Nov-2019 02:18:58 America/Chicago] PHP Fatal error:  Out of memory (allocated 735051776) (tried to allocate 32778767 bytes) in phar:///home2/k8iqfcv5/bin/composer/composer.phar/src/Composer/Repository/ComposerRepository.php on line 340
+[17-Nov-2019 02:24:24 America/Chicago] PHP Fatal error:  Out of memory (allocated 734527488) (tried to allocate 32873033 bytes) in phar:///home2/k8iqfcv5/bin/composer/composer.phar/src/Composer/Repository/ComposerRepository.php on line 340
+[17-Nov-2019 02:25:48 America/Chicago] PHP Fatal error:  Out of memory (allocated 810557440) (tried to allocate 4096 bytes) in phar:///home2/k8iqfcv5/bin/composer/composer.phar/src/Composer/DependencyResolver/RuleSetGenerator.php on line 129
+[17-Nov-2019 02:28:41 America/Chicago] PHP Fatal error:  Out of memory (allocated 810557440) (tried to allocate 4096 bytes) in phar:///home2/k8iqfcv5/bin/composer/composer.phar/src/Composer/DependencyResolver/RuleSetGenerator.php on line 129
+[17-Nov-2019 02:31:18 America/Chicago] PHP Fatal error:  Out of memory (allocated 730071040) (tried to allocate 32873033 bytes) in phar:///home2/k8iqfcv5/bin/composer/composer.phar/src/Composer/Repository/ComposerRepository.php on line 340
+[17-Nov-2019 02:32:36 America/Chicago] PHP Fatal error:  Out of memory (allocated 730071040) (tried to allocate 32873033 bytes) in phar:///home2/k8iqfcv5/bin/composer/composer.phar/src/Composer/Repository/ComposerRepository.php on line 340
+[17-Nov-2019 02:46:37 America/Chicago] PHP Fatal error:  Out of memory (allocated 810557440) (tried to allocate 4096 bytes) in phar:///home2/k8iqfcv5/bin/composer/composer.phar/src/Composer/DependencyResolver/RuleSetGenerator.php on line 129
+[17-Nov-2019 02:47:28 America/Chicago] PHP Fatal error:  Out of memory (allocated 810557440) (tried to allocate 4096 bytes) in phar:///home2/k8iqfcv5/bin/composer/composer.phar/src/Composer/DependencyResolver/RuleSetGenerator.php on line 129
+[23-Dec-2019 04:07:22 America/Chicago] PHP Fatal error:  Out of memory (allocated 808460288) (tried to allocate 16777224 bytes) in phar:///home2/k8iqfcv5/bin/composer/composer.phar/src/Composer/DependencyResolver/RuleSet.php on line 83

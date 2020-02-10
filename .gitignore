@@ -1,0 +1,13 @@
+.env
+/storage
+storage/
+.idea/*
+/.idea
+vendor/*
+/vendor
+hh/*
+/hh
+public/*
+/public
+vendor/*
+/vendor
